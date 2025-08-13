@@ -36,21 +36,14 @@
         }
 
         .buscador {
-
             background-color: white;
-
             width: 150px;
-
             height: 30px;
-
         }
 
         .main {
-
             display: flex;
-
             min-height: 300px;
-
         }
 
         .side-bar {
