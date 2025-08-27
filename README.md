@@ -1,1 +1,0 @@
-# ComputacionGrafica2025B
