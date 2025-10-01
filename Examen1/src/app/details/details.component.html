@@ -1,29 +1,20 @@
 <app-header></app-header>
 <app-menubar></app-menubar>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<div style="display:flex;align-items:center;justify-content:center;height:100vh;box-sizing:border-box;">
+  <div class="card" style="display:flex;flex-wrap:wrap;justify-content:center;gap:16px;padding:24px;">
+    <p-toast></p-toast>
+    <p-button type="button" pRipple (click)="showSuccess()" label="Success" severity="success"></p-button>
 
-<div class="flex justify-center items-center min-h-screen">
-<div class="card flex justify-center gap-2">
-    <p-toast />
-    <p-button type="button" pRipple (click)="showSuccess()" label="Success" severity="success" />
-    <p-button type="button" pRipple (click)="showInfo()" label="Info" severity="info" />
-    <p-button type="button" pRipple (click)="showWarn()" label="Warn" severity="warn" />
-    <p-button type="button" pRipple (click)="showError()" label="Error" severity="danger" />
-    <p-button type="button" pRipple (click)="showSecondary()" label="Secondary" severity="secondary" />
-    <p-button type="button" pRipple (click)="showContrast()" label="Contrast" severity="contrast" />
+    <p-button type="button" pRipple (click)="showInfo()" label="Info" severity="info"></p-button>
+
+    <p-button type="button" pRipple (click)="showWarn()" label="Warn" severity="warn"></p-button>
+
+    <p-button type="button" pRipple (click)="showError()" label="Error" severity="danger"></p-button>
+
+    <p-button type="button" pRipple (click)="showSecondary()" label="Secondary" severity="secondary"></p-button>
+
+    <p-button type="button" pRipple (click)="showContrast()" label="Contrast" severity="contrast"></p-button>
+  </div>
 </div>
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 <app-footer></app-footer>
