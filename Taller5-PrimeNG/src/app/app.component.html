@@ -1,0 +1,25 @@
+<div class="card">
+  <p-card header="Formulario de Registro" subheader="Complete los campos" styleClass="mb-3">
+    <div class="p-fluid">
+      <div class="p-field">
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text" pInputText [(ngModel)]="nombre" />
+      </div>
+      <div class="p-field">
+        <label for="edad">Edad:</label>
+        <input id="edad" type="number" pInputText [(ngModel)]="edad" />
+      </div>
+      <div class="p-field">
+        <label for="password">Contraseña:</label>
+        <input id="password" type="password" pInputText [(ngModel)]="password" />
+      </div>
+    </div>
+  </p-card>
+</div>
+  <h1>{{title}}</h1>
+  <h2>Bienvenido {{nombre}}</h2>
+  <h3>Tu edad es: {{edad}}</h3>
+  <h3>Tu musica favorita es: {{musica}}</h3>
+  <h3>Tu energia es: {{energia}}</h3>
+  <h3>Tu hobbies son: {{hobbies}}</h3>
+<router-outlet />
