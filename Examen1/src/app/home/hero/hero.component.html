@@ -1,0 +1,98 @@
+<div style="display: flex;">
+    <div style="flex: 1; padding: 10px;">
+        <p-card [style]="{ width: '25rem', overflow: 'hidden' }">
+            <ng-template #header>
+                <img alt="Card" class="w-full" src="desarrolloSoft.jpeg" width="500px"/>
+            </ng-template>
+            <ng-template #title> Desarrollo de Software a la Medida </ng-template>
+            <ng-template #subtitle> Soluciones personalizadas para tu empresa </ng-template>
+            <p>
+                Desarrollo de software a la medida, 
+                adaptándonos a las necesidades específicas de tu empresa. 
+                Nuestro equipo crea soluciones innovadoras y eficientes que optimizan procesos, 
+                mejoran la productividad y permiten alcanzar tus objetivos de negocio con tecnología 
+                de vanguardia.
+            </p>
+            <ng-template #footer>
+                <div class="flex gap-4 mt-1" style="text-align: center;">
+                    <p-button label="Conocer más" class="w-full" styleClass="w-full" severity="warn"/>
+                </div>
+            </ng-template>
+        </p-card>
+    </div>
+    <div style="flex: 1; padding: 10px;">
+        <p-card [style]="{ width: '25rem', overflow: 'hidden' }">
+            <ng-template #header>
+                <img alt="Card" class="w-full" src="devMovil.jpg" width="500px" />
+            </ng-template>
+            <ng-template #title> Desarrollo Movil </ng-template>
+            <ng-template #subtitle> Soluciones móviles para tu negocio </ng-template>
+            <p>
+                Ofrecemos desarrollo de aplicaciones móviles innovadoras y funcionales, 
+                adaptadas a las necesidades de tu negocio. Nuestro equipo utiliza tecnologías 
+                modernas para crear soluciones que mejoran la experiencia de tus usuarios y 
+                potencian el crecimiento de tu empresa en el entorno digital.
+            </p>
+            <ng-template #footer>
+                <div class="flex gap-4 mt-1" style="text-align: center;">
+                    <p-button label="Conocer más" class="w-full" styleClass="w-full" severity="warn"/>
+                </div>
+            </ng-template>
+        </p-card>
+    </div>
+    <div style="flex: 1; padding: 10px;">
+        <p-card [style]="{ width: '25rem', overflow: 'hidden' }">
+            <ng-template #header>
+                <img alt="Card" class="w-full" src="soporteApp.jpg" width="500px"/>
+            </ng-template>
+            <ng-template #title> Soporte a Aplicaciones </ng-template>
+            <ng-template #subtitle> Mantenimiento y soporte continuo </ng-template>
+            <p>
+                Brindamos soporte técnico y mantenimiento para tus aplicaciones, 
+                asegurando su funcionamiento óptimo y la resolución rápida de incidencias. 
+                Nuestro equipo está disponible para ayudarte a mantener tus sistemas actualizados, 
+                seguros y eficientes.
+            </p>
+            <ng-template #footer>
+                <div class="flex gap-4 mt-1" style="text-align: center;">
+                    <p-button label="Conocer más" class="w-full" styleClass="w-full" severity="warn"/>
+                </div>
+            </ng-template>
+        </p-card>
+    </div>
+</div>
+
+<div>
+    <p-accordion value="0">
+        <p-accordion-panel value="0">
+            <p-accordion-header>Desarrollo de Software a la Medida</p-accordion-header>
+            <p-accordion-content>
+                <p class="m-0">
+                    Desarrollo de software a la medida, adaptándonos a las necesidades específicas de tu empresa. 
+                    Nuestro equipo crea soluciones innovadoras y eficientes que optimizan procesos, 
+                    mejoran la productividad y permiten alcanzar tus objetivos de negocio con tecnología de vanguardia.
+                </p>
+            </p-accordion-content>
+        </p-accordion-panel>
+
+        <p-accordion-panel value="1">
+            <p-accordion-header>Desarrollo Movil</p-accordion-header>
+            <p-accordion-content>
+                <p class="m-0">
+                    Ofrecemos desarrollo de aplicaciones móviles innovadoras y funcionales, adaptadas a 
+                    las necesidades de tu negocio. Nuestro equipo utiliza tecnologías modernas para crear 
+                    soluciones que mejoran la experiencia de tus usuarios y potencian el crecimiento de tu empresa en el entorno digital.
+                </p>
+            </p-accordion-content>
+        </p-accordion-panel>
+
+        <p-accordion-panel value="2">
+            <p-accordion-header>Soporte a Aplicaciones</p-accordion-header>
+            <p-accordion-content>
+                <p class="m-0">
+                    Brindamos soporte técnico y mantenimiento para tus aplicaciones, asegurando su funcionamiento óptimo y la resolución rápida de incidencias. Nuestro equipo está disponible para ayudarte a mantener tus sistemas actualizados, seguros y eficientes.
+                </p>
+            </p-accordion-content>
+        </p-accordion-panel>
+    </p-accordion>
+</div>

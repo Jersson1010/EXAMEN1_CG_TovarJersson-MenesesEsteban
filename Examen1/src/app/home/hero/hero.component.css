@@ -1,0 +1,5 @@
+.card-tamaño {
+  width: 25rem;
+  min-height: 550px;
+  overflow: hidden;
+}
